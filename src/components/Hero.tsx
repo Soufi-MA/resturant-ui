@@ -10,26 +10,26 @@ const Hero = () => {
   return (
     <div className="flex px-2 py-4">
       <div className="flex flex-col flex-1 pt-32 h-[1000px] gap-8">
-        <h1 className="font-inter font-[800px] text-[62px]">
+        <h1 className="font-inter font-[800] text-[62px]">
           Dive into Delights
           <br /> Of Delectable{" "}
           <span className="text-primary font-[700px]">Food</span>
         </h1>
-        <h2 className="font-inter font-[500px] text-[26px] text-[#4A4A4A]">
+        <h2 className="font-inter font-[500] text-[26px] text-[#4A4A4A]">
           Where Each Plate Weaves a Story of Culinary
           <br /> Mastery and Passionate Craftsmanship
         </h2>
         <div className="flex gap-16">
-          <div className="flex items-center justify-center rounded-[40px] w-[229px] h-[80px] bg-primary">
-            <p className="font-inter font-[600px] text-white text-[26px]">
+          <div className="flex items-center justify-center rounded-[40px] w-[229px] h-[80px] bg-primary hover:bg-primary/90 cursor-pointer">
+            <p className="font-inter font-[600] text-white text-[26px]">
               Order Now
             </p>
           </div>
           <div className="flex gap-12 items-center justify-center rounded-[40px] h-[80px]">
-            <p className="font-inter font-[600px] text-[26px] text-[#4D4D4D]">
+            <p className="font-inter font-[600] text-[26px] text-[#4D4D4D]">
               Watch Video
             </p>
-            <div className="flex items-center justify-center rounded-full w-20 h-20 shadow-lg">
+            <div className="flex items-center justify-center rounded-full w-20 h-20 shadow-lg cursor-pointer hover:bg-white/30">
               <img src={playIcon} alt="" />
             </div>
           </div>
@@ -47,11 +47,11 @@ const Hero = () => {
               alt=""
             />
             <div className="flex flex-col justify-between h-[98px] ">
-              <p className="font-inter font-[600px] text-[22px] text-[#2C2C2C]">
+              <p className="font-inter font-[600] text-[22px] text-[#2C2C2C]">
                 Spicy noodles
               </p>
-              <img src={stars1} alt="" />
-              <p className="font-inter font-[600px] text-[24px] text-[#515151]">
+              <img className="w-[108px] h-4" src={stars1} alt="" />
+              <p className="font-inter font-[600] text-[24px] text-[#515151]">
                 <span className="text-[18px] text-[#FF7979]">$</span>18.00
               </p>
             </div>
@@ -63,12 +63,12 @@ const Hero = () => {
               alt=""
             />
             <div className="flex flex-col justify-between h-[98px] ">
-              <p className="font-inter font-[600px] text-[22px] text-[#2C2C2C]">
+              <p className="font-inter font-[600] text-[22px] text-[#2C2C2C]">
                 Vegetarian Salad
               </p>
-              <img src={stars2} alt="" />
-              <p className="font-inter font-[600px] text-[24px] text-[#515151]">
-                <span className="text-[18px] text-[#FF7979]">$</span>18.00
+              <img className="w-[108px] h-4" src={stars2} alt="" />
+              <p className="font-inter font-[600] text-[24px] text-[#515151]">
+                <span className="text-[18px] text-[#FF7979]">$</span>23.00
               </p>
             </div>
           </div>
