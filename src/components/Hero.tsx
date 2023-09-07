@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-1 relative">
+      <div className="flex flex-1 relative min-w-[742px]">
         <div className="absolute top-36 right-0 w-[660px] h-[623px] bg-primary rounded-[500px]" />
         <img className="absolute" src={heroImage} alt="" />
         <img className="absolute top-36 right-[450px]" src={comment} alt="" />
